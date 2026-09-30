@@ -18,3 +18,4 @@ locals {
         },
         var.igw_tags
     )
+}
