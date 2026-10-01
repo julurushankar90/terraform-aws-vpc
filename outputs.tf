@@ -1,3 +1,11 @@
-output "az_info" {
-  value = data.aws_availability_zones.available.names
+output "instance_id" {
+  value       = aws_instance.this.id
+}
+
+output "public_ip" {
+  value = aws_instance.this.public_ip
+}
+
+output "private_ip" {
+  value = aws_instance.this.private_ip
 }
