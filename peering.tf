@@ -14,7 +14,7 @@ resource "aws_vpc_peering_connection" "default" {
     allow_remote_vpc_dns_resolution = true
   }
   
-  requestor {
+  requester {
     allow_remote_vpc_dns_resolution = true
   }
 
